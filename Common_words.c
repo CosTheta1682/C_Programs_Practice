@@ -38,7 +38,7 @@ if (already)
             }
         }
     }
-    com[k] = '\0';  // ✅ terminate common string
+    com[k] = '\0';  //terminate common string
 
     // --- UNIQUE IN FIRST STRING ---
     for (i = 0; str1[i] != '\0'; i++) {
@@ -63,7 +63,7 @@ if (already)
             ost1[l++] = str1[i];
         }
     }
-    ost1[l] = '\0';  // ✅ terminate
+    ost1[l] = '\0';  //  terminate
 
     // --- UNIQUE IN SECOND STRING ---
     for (i = 0; str2[i] != '\0'; i++) {
@@ -88,7 +88,7 @@ if (already)
             ost2[m++] = str2[i];
         }
     }
-    ost2[m] = '\0';  // ✅ terminate
+    ost2[m] = '\0';  // terminate
 
     // --- OUTPUT ---
     printf("\nCommon letters: %s", com);
@@ -104,4 +104,5 @@ if (already)
       
       
       
+
       
